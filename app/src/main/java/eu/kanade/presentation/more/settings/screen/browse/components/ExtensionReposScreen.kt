@@ -116,7 +116,7 @@ fun ExtensionReposScreen(
 private fun ExtensionReposScreenPreview() {
     val state = RepoScreenState.Success(
         repos = persistentSetOf(
-            ExtensionRepo("https://repo", "Komikku", "", "", KOMIKKU_SIGNATURE),
+            ExtensionRepo("https://repo", "Akazn", "", "", KOMIKKU_SIGNATURE),
             ExtensionRepo("https://repo", "Repo", "", "", REPO_SIGNATURE),
             ExtensionRepo("https://repo", "Other", "", "", "key2"),
         ),
