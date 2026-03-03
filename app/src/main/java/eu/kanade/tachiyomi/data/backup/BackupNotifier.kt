@@ -37,7 +37,7 @@ class BackupNotifier(private val context: Context) {
     ) {
         setSmallIcon(R.drawable.ic_stat_name)
         setColor(ContextCompat.getColor(context, R.color.ic_launcher))
-        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.komikku))
+        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.akazn))
         setAutoCancel(false)
         setOngoing(true)
         setOnlyAlertOnce(true)
@@ -48,7 +48,7 @@ class BackupNotifier(private val context: Context) {
     ) {
         setSmallIcon(R.drawable.ic_stat_name)
         setColor(ContextCompat.getColor(context, R.color.ic_launcher))
-        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.komikku))
+        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.akazn))
         setAutoCancel(false)
     }
 
